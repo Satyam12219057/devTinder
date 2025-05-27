@@ -76,6 +76,9 @@ console.log("server is successfully listening on port 3000...");
  app.use("/test",(req,res)=>{
     res.send("hello from the server");
  });
+ app.use("/hello",(req,res)=>{
+    res.send("hello from the server");
+ });
 
  //to start the server
  app.listen(3000,()=>{
