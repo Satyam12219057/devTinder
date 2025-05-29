@@ -4,4 +4,7 @@
 //download postman 
 // and check your server is working proprly or not
 // write logic to handle get,patch,post,delete correct order
+//explore differents routing like use of ?,+,(),*,in route
+//use of regex in route /a/,/.*flyout$/
+//reading th dynamic route
 
