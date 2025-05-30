@@ -17,7 +17,7 @@ app.use("/user",(req,res)=>{
 //as a developer we should never follow this pattern
 
 app.use("/user",[(req,res,next)=>{
-   console.log("handling the route user!!");
+   console.log("handling the route user1!!");
    next();
    //res.send("response");
    
