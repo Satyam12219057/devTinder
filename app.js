@@ -40,6 +40,16 @@ app.use("/user",[(req,res,next)=>{
 }
 );
 
+app.use("/movie",(req,res)=>{
+   res.send("this is handle all kind of request");
+
+});
+
+app.use("/colo?r",(req,res)=>{
+   res.send("this is handle all kind of request");
+
+});
+
 //we have right to wrapping the routes inside the array is possible
 app.listen(3000,()=>{
 console.log("server is successfully listening on the port 3000");
